@@ -6,6 +6,25 @@ import numpy as np
 import scipy as sp  
 import sklearn as skl 
 import matplotlib as mpl  
+import seaborn as sns
+
+# For Linear Regression
+import sklearn.linear_model as skl_lm
+from sklearn.metrics import mean_squared_error, r2_score
+
+# For logistic Regression
+import sklearn.linear_model as skl_lm
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+from sklearn.metrics import confusion_matrix, classification_report, precision_score
+from sklearn import preprocessing
+from sklearn import neighbors
+
+# For Basic Model statistics 
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+
+
 
 # Step 2: Load Data
 filename = 'filename.csv' 
